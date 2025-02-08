@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Hub's | Beep</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Técnicas & Drivers</h1>
+
+    <!-- Seletor de Hub -->
+    <select id="hubSelector">
+      <option value="all">Selecione o Hub</option>
+      <option value="VLO">Vila Olímpia (VLO)</option>
+      <option value="Alpha">Alphaville (Alpha)</option>
+      <option value="TTP">Tatuapé (TTP)</option>
+      <option value="SBC">São Bernardo do Campo (SBC)</option>
+    </select>
+
+    <!-- Campo de pesquisa -->
+    <input type="text" id="searchInput" placeholder="Pesquisar colaborador...">
+
+    <!-- Lista de colaboradores -->
+    <div id="contactsList" class="contacts-list"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: black; /* Fundo preto */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff; /* Título branco */
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333; /* Fundo escuro para os inputs */
+  color: #fff; /* Texto branco nos inputs */
+}
+
+select:focus, input:focus {
+  border-color: #007bff; /* Azul ao focar */
+  outline: none;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  opacity: 0.9; /* Efeito de opacidade ao passar o mouse */
+}
+
+/* Cor dos botões para Técnicas */
+.contact-button.tecnicas {
+  background-color: #007bff; /* Azul para Técnicas */
+}
+
+/* Cor dos botões para Motoristas */
+.contact-button.motoristas {
+  background-color: #ff5722; /* Laranja para Motoristas */
+}
+
+.contact-button span {
+  font-weight: bold;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px; /* Tamanho menor para o título em telas pequenas */
+  }
+
+  .contact-button {
+    font-size: 14px; /* Tamanho menor para os botões em telas pequenas */
+    padding: 10px; /* Padding reduzido para melhor aproveitamento do espaço */
+  }
+
+  .container {
+    padding: 10px; /* Padding reduzido para o container em telas pequenas */
+  }
+
+  select, input {
+    margin-bottom: 10px; /* Espaçamento menor entre os elementos */
+    font-size: 14px; /* Tamanho menor para o texto dos inputs e select */
+  }
+}
