@@ -2,6 +2,7 @@
 const contacts = {
   VLO: [
     // Técnicas
+    { name: "Vitoria Laís Souza da Silva", phone: "21935003489", gender: "female" },
     { name: "Beatriz Pereira", phone: "11935025189", gender: "female" },
     { name: "Bianca Aragão", phone: "11935026973", gender: "female" },
     { name: "Crislaine Magna", phone: "22995281381", gender: "female" },
