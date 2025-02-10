@@ -2,7 +2,7 @@
 const contacts = {
   VLO: [
     // Técnicas
-    { name: "Vitoria Laís Souza da Silva", phone: "21935003489", gender: "female" },
+    { name: "Aline Andrade de Oliveira", phone: "11995975461", gender: "female" },
     { name: "Beatriz Pereira", phone: "11935025189", gender: "female" },
     { name: "Bianca Aragão", phone: "11935026973", gender: "female" },
     { name: "Crislaine Magna", phone: "22995281381", gender: "female" },
@@ -61,7 +61,7 @@ const contacts = {
     { name: "Luiz Henrique", phone: "11958566868", gender: "male" },
     { name: "Vitoria Laís Souza da Silva", phone: "21935003489", gender: "female" },
   ],
-  Alpha: [
+  ALPHA: [
     // Motoristas
     { name: "Adilson Alves", phone: "11979756939", gender: "male" },
     { name: "Anderson Silva Matos", phone: "11985264126", gender: "male" },
